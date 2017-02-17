@@ -3,13 +3,12 @@
 //type Class1() = 
 //    member this.X = "F#"
 //module HelloWorld.Tests.Hello
-
+open NUnit.Framework
+open FsUnit
 open HelloWorld.Core.Hello
 module Hellotest=   
 //    open HelloWorld.Core.Bye
-    open NUnit.Framework
-    open FsUnit
-
+    
     [<Test>]
     let shouldSayHello () = Assert.AreEqual("Hello World!", SayHello "World")
 
