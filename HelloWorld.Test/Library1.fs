@@ -5,8 +5,12 @@
 module HelloWorld.Tests.Hello
 
 open HelloWorld.Core.Hello
+//open HelloWorld.Core.Bye
 open NUnit.Framework
 open FsUnit
 
 [<Test>]
 let shouldSayHello () = Assert.AreEqual("Hello World!", SayHello "World")
+
+//[<Test>]
+//let shouldSayBye () = Assert.AreEqual("Hello World!", SayBye "World")
