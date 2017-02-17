@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="1" result="Failed" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="1" engine-version="3.6.0.0" clr-version="4.0.30319.42000" start-time="2017-02-17 09:53:43Z" end-time="2017-02-17 09:53:44Z" duration="1.232713">
+  <command-line><![CDATA[packages\NUnit.ConsoleRunner.3.6.0\tools\nunit3-console.exe  HelloWorld.Test\bin\Debug\HelloWorld.Test.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1002" name="HelloWorld.Test.dll" fullname="C:\Users\nikitaku\Documents\Visual Studio 2015\Projects\HelloWorld.Core\HelloWorld.Test\bin\Debug\HelloWorld.Test.dll" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-02-17 09:53:44Z" end-time="2017-02-17 09:53:44Z" duration="0.084522" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.5.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.3.9600.0" platform="Win32NT" cwd="C:\Users\nikitaku\Documents\Visual Studio 2015\Projects\HelloWorld.Core" machine-name="NIKITAKU-W8" user="nikitaku" user-domain="CYBAGE" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\nikitaku\Documents\Visual Studio 2015\Projects\HelloWorld.Core" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="24660" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1003" name="HelloWorld" fullname="HelloWorld" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-02-17 09:53:44Z" end-time="2017-02-17 09:53:44Z" duration="0.065027" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="1">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1004" name="Tests" fullname="HelloWorld.Tests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-02-17 09:53:44Z" end-time="2017-02-17 09:53:44Z" duration="0.061919" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="1">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="0-1000" name="Hello" fullname="HelloWorld.Tests.Hello" classname="HelloWorld.Tests.Hello" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-02-17 09:53:44Z" end-time="2017-02-17 09:53:44Z" duration="0.055971" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="1">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1001" name="shouldSayHello" fullname="HelloWorld.Tests.Hello.shouldSayHello" methodname="shouldSayHello" classname="HelloWorld.Tests.Hello" runstate="Runnable" seed="1830338488" result="Failed" start-time="2017-02-17 09:53:44Z" end-time="2017-02-17 09:53:44Z" duration="0.045594" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected string length 12 but was 5. Strings differ at index 5.
+  Expected: "Hello World!"
+  But was:  "Hello"
+  ----------------^
+]]></message>
+              <stack-trace><![CDATA[at FsUnit.Assert.AreEqual[T](T expected, T actual) in d:\GitHub\FsUnit\src\FsUnit.NUnit\GenericAssert.fs:line 22
+at HelloWorld.Tests.Hello.shouldSayHello() in C:\Users\nikitaku\documents\visual studio 2015\Projects\HelloWorld.Core\HelloWorld.Test\Library1.fs:line 12
+]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
