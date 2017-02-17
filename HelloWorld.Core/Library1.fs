@@ -6,4 +6,6 @@ namespace HelloWorld.Core
 
 module Hello =
     let SayHello name = "Hello"
+
+module Bye =
     let SayBye name1 = "Bye" 
