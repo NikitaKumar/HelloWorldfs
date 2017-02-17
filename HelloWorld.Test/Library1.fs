@@ -6,6 +6,7 @@
 open NUnit.Framework
 open FsUnit
 open HelloWorld.Core.Hello
+open HelloWorld.Core.Bye
 module Hellotest=   
 //    open HelloWorld.Core.Bye
     
