@@ -5,7 +5,7 @@
 module HelloWorld.Tests.Hello
 
 open HelloWorld.Core.Hello
-//open HelloWorld.Core.Bye
+open HelloWorld.Core.Bye
 open NUnit.Framework
 open FsUnit
 
