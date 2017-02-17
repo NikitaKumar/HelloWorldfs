@@ -12,5 +12,5 @@ open FsUnit
 [<Test>]
 let shouldSayHello () = Assert.AreEqual("Hello World!", SayHello "World")
 
-//[<Test>]
-//let shouldSayBye () = Assert.AreEqual("Hello World!", SayBye "World")
+[<Test>]
+let shouldSayBye () = Assert.AreEqual("Hello World!", SayBye "World")
